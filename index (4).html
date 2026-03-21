@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Oscar's First Website</title>
+  <style>
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 20px;
+}
+body {
+  max-width: 900px;
+  margin: auto;
+}
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  }
+  
+  nav a {
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: black;
+  }
+  
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+}
+ button {
+  margin: 5px; 
+ }
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+  </style>
+</head>
+
+<body>
+  
+  <script>
+  alert("Welcome to my website!");
+</script>
+
+<script>
+  function sayHello() {
+    alert("Hello Oscar 👋");
+  }
+</script>
+  <header>
+  <h1>Welcome to Oscar's Website</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </nav>
+    
+    <hr>
+      
+    <section>
+      <h2>About Me</h2>
+      <p>My name is Oscar.I am learning web development and I will become a great developer</p>
+      <h2>My Project</h2>
+      <div class="card">
+        <h3>My First Website</h3>
+        <p>This is my first web development project using HTML and CSS</p>
+      </div>
+    </section>
+    
+    <section style="display: flex; flex-wrap: wrap;gap: 20px; justify-content: space-around;"    >
+      <div class="card">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Coding</li>
+          <li>Music</li>
+          <li>Football</li>
+        </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Timetable</h3>
+          <p>Check below</p>
+        </div>
+        
+        <div class="card">
+          <h3>Favorite Website</h3>
+          <a href="https://gifhub.com.">Gifhub</a>
+        </div>
+        </section>
+        <section>
+       
+       
+      <h3>Timetable</h3>
+      <table border="1" style=" width: 100%; border-collapse: collapse;">
+        <tr><th>Day</th><th>8-10am</th><th>10-12pm</th><th>12-2pm</th><th>2-4pm</th><th>4-6pm</th></tr>
+        <tr><td>Mon</td><td>GST 111</td ><td>MTH 101</td><td>CSL 102</td><td>EDU 101</td></tr>
+        <tr><td>Tuesday</td><td>GST 112</td><td></td><td>COS 101</td>
+          <td></td><td></td>
+        </tr>
+        <tr><td>Wednesday</td><td></td><td>CSL 103</td><td></td><td></td><td>PHY 107</td></tr>
+        </table>
+      <br>
+      
+      <h2>My Picture</h2>
+      <img src="myphoto.jpg" width="200">
+      <h2>My gallery</h2>
+      <div class="gallery">
+        <img src="myphoto.jpg">
+        <img src="myphoto.jpg">
+        <img src="myphoto.jpg">
+      </div>
+      
+      <br><br>
+     
+     <br><br>
+     
+     <h2>Sign Up</h2>
+     <form>
+      <label>Full Name:</label>
+      <input type="text"><br><br>
+      
+      <label>Email:</label>
+      <input type="email"><br><br>
+      
+      <label>Password:</label>
+      <input type="password"><br><br>
+      
+      <button>Sign Up</button>
+      
+     </form>
+    </section>
+    
+    <hr>
+    
+    <footer>
+      <p>&copy; 2026 Oscar</p>
+    </footer>
+  
+</body>
+
+</html>
